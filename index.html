@@ -32,21 +32,20 @@
         }
 
         .video-container video {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: auto;
-        }
-
-        .video-container {
-            position: relative;
-            padding-bottom: 56.25%;
-            /* 16:9 aspect ratio (height/width) */
-            margin-bottom: 0;
-            height: 0;
-            overflow: hidden;
-        }
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+    }
+    .video-container {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 aspect ratio (height/width) */
+        margin-bottom: 0;
+        height: 0;
+        overflow: hidden;
+    }
+    
     </style>
 </head>
 
@@ -56,46 +55,50 @@
     </div> -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#service">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contact.html">contact</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown link
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
+          <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="djjdj" width="200"/></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#service">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./signin.html">signin</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./signup.html">signup</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Travel
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
-            </div>
+              </li>
+            </ul>
+          </div>
         </div>
-    </nav>
-    <div class="video-container">
-        <video autoplay controls loop id="myVideo">
-            <source src="./images/okay.mp4" type="video/mp4">
-            Your browser does not support HTML5 video.
-        </video>
-    </div>
+      </nav>
+        <div class="video-container">
+            <video autoplay controls loop id="myVideo">
+                <source src="./images/okay.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
     <!-- Indicators/dots -->
     <!-- <div class="carousel-indicators">
             <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
@@ -241,100 +244,98 @@
         </div>
     </div>
     <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="courses_item1">
-                    <img src="./images/travel-4.jpg" class="img-responsive img-fluid" alt="">
-                    <!-- <div class="hover_text">
-                        <a class="cat" href="#">SSS</a>
-                        <a href="#">
-                            <h4 class="mt-4">Senior Secondary School</h4>
-                        </a>
-                        <ul class="list">
-                            <li><a href="#"><i class="fa fa-calendar-o"></i> 355</a></li>
-                            <li><a href="#"><i class="fa fa-calendar-o"></i> 35</a></li>
-                            <li><a href="#"><i class="fa fa-calendar-o"></i> T. Robert</a></li>
-                        </ul>
-                    </div> -->
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="">
-                    <div class="courses_item">
-                        <img src="./images/travel-2.jpg" class="img-responsive img-fluid" alt="" />
-                        <!-- <div class="hover_text">
-                            <a class="cat" href="#">Vocational</a>
-                            <a href="#">
-                                <h4 class="mt-4">Vocational Training</h4>
-                            </a>
-                            <ul class="list">
-                                <li><a href="#"> <i class="fa fa-comment-o"></i> 355</a></li>
-                                <li><a href="#"> <i class="fa fa-comment-o"></i> 35</a></li>
-                                <li><a href="#"><i class="fa fa-comment-o"></i> T. Robert</a></li>
-                            </ul>
-                        </div> -->
+        <div class="row  animate__animated animate__bounceInLeft" style="  --animate-duration: 4s;">
+            <div class="col-lg-9">
+                <div class="grid_inner">
+                    <div class="row" style="margin-bottom:-90px ;">
+                        <div class="col-md-6">
+                            <div class="grid_item1 wd55">
+                                <div class="courses_item1">
+                                    <img src="./images/travel-4.jpg" class="img-responsive img-fluid"
+                                        style=" width:470px;height:290px; object-fit: fill;" alt="">
+                                    <div class="hover_text">
+                                        <a class="cat" href="#">SSS</a>
+                                        <a href="#">
+                                            <h4 class="mt-4">Senior Secondary School</h4>
+                                        </a>
+                                        <ul class="list">
+                                            <li><a href="#"><i class="fa fa-calendar-o"></i> 355</a></li>
+                                            <li><a href="#"><i class="fa fa-calendar-o"></i> 35</a></li>
+                                            <li><a href="#"><i class="fa fa-calendar-o"></i> T. Robert</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="grid_item wd44">
+                                <div class="courses_item">
+                                    <img src="./images/travel-2.jpg" style="width:470px;object-fit: fill"
+                                        class="img-responsive img-fluid" alt="">
+                                    <div class="hover_text">
+                                        <a class="cat" href="#">Vocational</a>
+                                        <a href="#">
+                                            <h4 class="mt-4">Vocational Training</h4>
+                                        </a>
+                                        <ul class="list">
+                                            <li><a href="#"> <i class="fa fa-comment-o"></i> 355</a></li>
+                                            <li><a href="#"> <i class="fa fa-comment-o"></i> 35</a></li>
+                                            <li><a href="#"><i class="fa fa-comment-o"></i> T. Robert</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-6">
+                            <div class="grid_item wd44">
+                                <div class="courses_item2">
+                                    <img src="./images/travel-3.jpg"
+                                        style="width:470px; height: 270px; object-fit: fill"
+                                        class="img-responsive img-fluid" alt="">
+                                    <div class="hover_text">
+                                        <a class="cat" href="#">Nur</a>
+                                        <a href="#">
+                                            <h4 class="mt-4">Nursery</h4>
+                                        </a>
+                                        <ul class="list">
+                                            <li><a href="#"><i class="fa fa-comment-o"></i> 355</a></li>
+                                            <li><a href="#"><i class="fa fa-comment-o"></i> 35</a></li>
+                                            <li><a href="#"><i class="fa fa-comment-o"></i> T. Robert</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="grid_item wd55">
+                                <div class="courses_item3">
+                                    <img src="./images/travel-1.jpg" class="img-responsive img-fluid"
+                                        style=" width:470px;height: 270px;object-fit: fill" alt="">
+                                    <div class="hover_text">
+                                        <a class="cat" href="#">Pry</a>
+                                        <a href="#">
+                                            <h4 class="mt-4">Primary</h4>
+                                        </a>
+                                        <ul class="list">
+                                            <li><a href="#"><i class="fa fa-calendar-o"></i> 355</a></li>
+                                            <li><a href="#"><i class="fa fa-calendar-o"></i> 35</a></li>
+                                            <li><a href="#"><i class="fa fa-calendar-o"></i> T. Robert</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="courses_item2 mb-5">
-                    <img src="./images/travel-3.jpg" class="img-responsive img-fluid" alt="" />
-                    <!-- <span class="hover_text">
-                        <a class="cat" href="#">Nur</a>
-                        <a href="#">
-                            <h4 class="mt-4">Nursery</h4>
-                        </a>
-                        <ul class="list">
-                            <li><a href="#"><i class="fa fa-comment-o"></i> 355</a></li>
-                            <li><a href="#"><i class="fa fa-comment-o"></i> 35</a></li>
-                            <li><a href="#"><i class="fa fa-comment-o"></i> T. Robert</a></li>
-                        </ul>
-                    </span> -->
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="courses_item3">
-                    <img src="./images/travel-1.jpg" class="img-responsive img-fluid" alt="" />
-                    <!-- <div class="hover_text">
-                        <a class="cat" href="#">Pry</a>
-                        <a href="#">
-                            <h4 class="mt-4">Primary</h4>
-                        </a>
-                        <ul class="list">
-                            <li><a href="#"><i class="fa fa-calendar-o"></i> 355</a></li>
-                            <li><a href="#"><i class="fa fa-calendar-o"></i> 35</a></li>
-                            <li><a href="#"><i class="fa fa-calendar-o"></i> T. Robert</a></li>
-                        </ul>
-                    </div> -->
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="grid_item wd44">
-                    <div class="courses_item2">
-                        <img src="./images/travel-3.jpg" style="object-fit: fill"
-                            class="img-responsive img-fluid" alt="">
-                        <!-- <div class="hover_text">
-                            <a class="cat" href="#">Nur</a>
-                            <a href="#">
-                                <h4 class="mt-4">Nursery</h4>
-                            </a>
-                            <ul class="list">
-                                <li><a href="#"><i class="fa fa-comment-o"></i> 355</a></li>
-                                <li><a href="#"><i class="fa fa-comment-o"></i> 35</a></li>
-                                <li><a href="#"><i class="fa fa-comment-o"></i> T. Robert</a></li>
-                            </ul>
-                        </div> -->
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
+            <div class="col-lg-3">
                 <div class="grid_item wd55">
                     <div class="courses_item3">
-                        <img src="./images/image7.jpeg" style="object-fit: fill; height:300px; width: 500px; " class="img-responsive img-fluid"
-                             alt="">
-                        <!-- <div class="hover_text">
+                        <img src="./images/image7.jpeg" class="img-responsive img-fluid"
+                            style="width:388px;height:85%;object-fit: fill; margin-top:12px" alt="">
+                        <div class="hover_text">
                             <a class="cat" href="#">JSS</a>
                             <a href="#">
                                 <h4 class="mt-4">Junior Secondary School</h4>
@@ -344,13 +345,13 @@
                                 <li><a href="#"><i class="fa fa-calendar-o"></i> 35</a></li>
                                 <li><a href="#"><i class="fa fa-calendar-o"></i> T. Robert</a></li>
                             </ul>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-     <section class="11" id="gallery">
+    <section class="11" id="#gallery">
         <div class="container mt-5">
             <div class="row justify-content-center">
                 <div class="col-md-10 align-items-center">
@@ -361,7 +362,6 @@
                 </div>
             </div>
         </div>
-    </section>
         <div class="container">
             <div class="row">
                 <div class=" col-md-6">
@@ -378,7 +378,7 @@
                     </div>
                 </div>
                 <div class=" col-md-6">
-                    <div class="gallery-item">
+                    <div class="gallery-item" >
                         <a href="#" class="link-item"><img src="./images/image3.jpeg"
                                 class="img-responsive img-fluid mb-3 image" alt="gallery"></a>
                         <div class="middle py-3">
@@ -391,11 +391,9 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="gallery-item">
+                    <div class="gallery-item" >
                         <a href="#" class="link-item"><img src="./images/image4.jpeg"
                                 class="img-responsive img-fluid mb-3 image" alt="gallery"></a>
                         <div class="middle py-3">
@@ -407,8 +405,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="gallery-item">
+                <div class="col-md-6" >
+                    <div class="gallery-item" >
                         <a href="#" class="link-item"><img src="./images/student-life.png"
                                 class="img-responsive img-fluid mb-3 image" alt="gallery"></a>
                         <div class="middle py-3">
@@ -473,7 +471,7 @@
             </div>
 
         </footer>
-    </div> -->
+    </div>
     <script>
         var video = document.getElementById("myVideo");
         var btn = document.getElementById("myBtn");
@@ -499,15 +497,14 @@
             $('.loader_bg').fadeToggle();
         }, 1500)
     </script> -->
-    <button class="border-0"
-        style="margin-top: 3px;position:fixed;background-color:green;color:#FFFFFF; bottom: 100px; right: 50px; height: 50xp; width: 50px; font-size: 50px;"
-        onclick="scrollUp()">^</button>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-        crossorigin="anonymous"></script>
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"></script>
+    <button class="border-0"
+        style="margin-top: 3px;position:fixed;background-color:green;color:#FFFFFF; bottom: 100px; right: 50px; height: 50xp; width: 50px; font-size: 50px;"
+        onclick="scrollUp()">^</button>
     <!-- <script>
         AOS.init();
         $('.carousel').carousel({
