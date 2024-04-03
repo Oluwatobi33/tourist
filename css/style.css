@@ -296,10 +296,8 @@ a {
   /* border-bottom: 10px solid #18f98f; */
 }
 .impress_area {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/whoop.png);
-  /* background: u no-repeat scroll center center; */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/partner.webp') no-repeat scroll center center;
   background-size: cover;
-  /* width: 100vw; */
   height: 50vh;
   /* margin-left: 13px; */
   margin-bottom: 34px;
@@ -329,7 +327,7 @@ a {
   color: white !important;
 }
 .footer2 {
-  background-color: brown;
+  background-color: rgb(147, 195, 147);
   background-size: cover;
 }
 .footer2 h5 {
@@ -337,17 +335,17 @@ a {
   font-size: 30px;
 }
 .nav-item .nav-link {
-  color:  black;
+  color: white !important;
 }
 .main_btn2 {
   display: inline-block;
   background: #fff;
   color: black !important;
 
-  padding: 0px 32px;
+  padding: 0px 52px;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 48px;
   border-radius: 5px;
@@ -401,11 +399,8 @@ span.text {
   left: 32px;
 }
 .hover_text h4 {
-  color: black;
-  font-weight: 700;
-  font-style: italic;
+  color: white;
 }
-
 .hover_text a {
   color: white;
   text-decoration: none;
@@ -466,10 +461,10 @@ span.text {
   text-decoration: none;
   text-align: end !important;
 }
-/* .navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link {
   color: black !important;
   font-weight: 700;
-} */
+}
 .num i {
   margin-bottom: 17px !important;
 }
@@ -479,21 +474,14 @@ span.text {
 .courses_item3 {
   margin-top: -29px;
 }
-.read {
-  display: block;
-  /* padding: 9px 10px 1px 21px; */
-  font-size: 9px;
-  color: white;
-  border: 1px solid;
-  text-transform: uppercase;
-  font-weight: 500;
-  padding: 10px 42px;
-}
 @media screen and (max-width: 1024px) {
   .fa-solid,
   .fas {
-    font-weight: 900;
-    font-size: 22px;
+    color: white;
+    font-size: 5em !important;
+    text-align: center;
+    position: relative;
+    bottom: 44px;
   }
   span.text {
     color: white;
@@ -560,7 +548,7 @@ span.text {
     text-transform: uppercase;
     font-size: 26px;
     margin-bottom: 20px;
-    color: black;
+    color: white;
     display: inline-block;
   }
   .para {
@@ -628,10 +616,8 @@ span.text {
   list-style-type: none;
 }
 .list li a {
+  color: white;
   text-decoration: none;
-    color: black;
-    font-weight: 700;
-    font-style: italic;
 }
 .list i {
   color: white !important;
@@ -1337,8 +1323,3 @@ h1 {
     opacity: 0;
   }
 }
-.nav-link {
-  color: black !important;
-}
-
-

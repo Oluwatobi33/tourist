@@ -1,8 +1,3 @@
-//backgroun_video
-
-
-
-
 let valueDisplays = document.querySelectorAll(".num");
 let interval = 4000;
 
