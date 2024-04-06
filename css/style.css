@@ -653,8 +653,8 @@ span.text {
 .carousel-caption h5 {
   background-color: white;
   font-size: 2em;
-  /* max-height: 50%; */
-  padding: 13px 0px !important;
+  max-height: 30%;
+  /* padding: 1px 0px !important; */
   border-radius: 12px;
   color: black;
   margin-bottom: 25px;
