@@ -1,6 +1,59 @@
-// Gallery
-// Get the elements with class="column"
-var elements = document.getElementsByClassName("column");
+//countdown display
+let valueDisplays = document.querySelectorAll(".num");
+let interval = 4000;
+
+valueDisplays.forEach((valueDisplay) => {
+    let startValue = 0;
+    let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+    let duration = Math.floor(interval / endValue);
+    let counter = setInterval(function () {
+        startValue += 1;
+        valueDisplay.textContent = startValue;
+        if (startValue == endValue) {
+            clearInterval(counter);
+        }
+    }, duration);
+});
+//countdown end
+// when we click on hamburger icon its close 
+
+
+// navbar
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
+
+
+
+const navLink = document.querySelectorAll(".nav-link");
+
+navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+function closeMenu() {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}
+
+// navbar end
+
+
+var i = 0;
+var txt = 'Lorem ipsum dummy text blabla.';
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
 
 // Declare a loop variable
 var i;
@@ -43,21 +96,21 @@ for (var i = 0; i < btns.length; i++) {
 // End of Gallery
 
 
-let valueDisplays = document.querySelectorAll(".num");
-let interval = 4000;
+// let valueDisplays = document.querySelectorAll(".num");
+// let interval = 4000;
 
-valueDisplays.forEach((valueDisplay) => {
-    let startValue = 0;
-    let endValue = parseInt(valueDisplay.getAttribute("data-val"));
-    let duration = Math.floor(interval / endValue);
-    let counter = setInterval(function () {
-        startValue += 1;
-        valueDisplay.textContent = startValue;
-        if (startValue == endValue) {
-            clearInterval(counter);
-        }
-    }, duration);
-});
+// valueDisplays.forEach((valueDisplay) => {
+//     let startValue = 0;
+//     let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+//     let duration = Math.floor(interval / endValue);
+//     let counter = setInterval(function () {
+//         startValue += 1;
+//         valueDisplay.textContent = startValue;
+//         if (startValue == endValue) {
+//             clearInterval(counter);
+//         }
+//     }, duration);
+// });
 const Contact = () => {
     let take1 = document.getElementById("Contact").innerHTML;
     document.getElementById("space").innerHTML = take1
